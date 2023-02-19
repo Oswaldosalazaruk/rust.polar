@@ -1,0 +1,12 @@
+[package]
+name = "polar"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+polars = { version = "0.27.2", features = ["lazy", "csv-file", "strings", "temporal", "concat_str", "list_eval", "dtype-duration", "rank", "lazy_regex"] }
+plotly = { version = "0.8.3", features = ["kaleido"] }
+plotly_kaleido = "0.8.3"
+
